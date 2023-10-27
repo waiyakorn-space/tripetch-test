@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Roboto";
+}
+
+.row-center {
+  @apply flex flex-row items-center justify-center;
+}
+
+.container-indicator {
+  @apply flex h-2.5 w-ct54 flex-row justify-between;
+}
+
+.indicator-gray {
+  @apply bg-ctIndicatorGray h-2.5 w-2.5 rounded-full;
+}
+
+.indicator-purple {
+  @apply bg-ctIndicatorPurple h-2.5 w-2.5 rounded-full;
+}
